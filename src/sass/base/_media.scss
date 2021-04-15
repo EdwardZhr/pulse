@@ -1,0 +1,36 @@
+@media (max-width: 991px) {
+    .container {
+        max-width: 700px;
+    }
+    .promo {
+        &__header {
+            font-size: 38px;
+        }
+        &__subheader {
+            font-size: 18px;
+        }
+        &__link {
+            font-size: 13px;
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+    .advantages {
+        &__icon {
+            font-size: 12px;
+            span {
+                font-size: 16px;
+            }
+        }
+    }
+    .button {
+        &_main {
+            width: 270px;
+            height: 45px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    
+}
